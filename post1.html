@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Post 1 - Advancements in AI</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="background-animation"></div>
+  <div class="floating-shapes">
+    <div class="shape"></div>
+    <div class="shape"></div>
+    <div class="shape"></div>
+    <div class="shape"></div>
+    <div class="shape"></div>
+  </div>
+
+  <div class="container">
+    <header class="glass-container fade-in">
+      <div class="header-content">
+        <div class="logo-section">
+          <div class="logo-icon"><i class="fas fa-graduation-cap"></i></div>
+          <h1>MANS University</h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html#home"><i class="fas fa-home"></i> Home</a></li>
+            <li><a href="about-us.html"><i class="fas fa-info-circle"></i> About Us</a></li>
+            <li><a href="contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="content-section glass-container fade-in">
+      <div class="section-header">
+        <h2 class="section-title">Advancements in AI Research</h2>
+        <p class="section-subtitle">An in-depth look at our cutting-edge projects from the Computer Science Department</p>
+      </div>
+      <article class="post-card">
+        <p>Our Computer Science department has made significant strides in artificial intelligence and machine learning. Recent projects explore neural network optimization techniques that are revolutionizing computational problem-solving approaches.</p>
+        <p>These advancements include real-time decision systems, human-like language processing models, and highly efficient transformer architectures. The team also focuses on AI ethics, fairness, and transparency.</p>
+        <p>Looking ahead, MANS University aims to integrate AI with education, healthcare, agriculture, and environmental systems—empowering interdisciplinary research that benefits society at large.</p>
+      </article>
+    </main>
+
+    <footer class="glass-container fade-in">
+      <div class="footer-content">
+        <p>&copy; 2025 MANS University - Inspiring Excellence in Education and Research</p>
+        <p>
+          <a href="#privacy">Privacy Policy</a> | 
+          <a href="#terms">Terms of Service</a> | 
+          <a href="#accessibility">Accessibility</a>
+        </p>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    // Add animation observer
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('fade-in');
+        }
+      });
+    });
+    document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+  </script>
+</body>
+</html>

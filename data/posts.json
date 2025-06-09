@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "title": "Advancements in AI",
+    "body": "Our CS department is working on neural networks and transformers...",
+    "author": "Agnieszka Antoniak",
+    "created_at": "2025-06-01"
+  },
+  {
+    "id": 2,
+    "title": "Quantum Leap at MANS",
+    "body": "Quantum Computing algorithms show promising results...",
+    "author": "Robert Zakrzewski",
+    "created_at": "2025-06-02"
+  },
+  {
+    "id": 3,
+    "title": "Green Tech on Campus",
+    "body": "Sustainable solutions are being deployed at every level...",
+    "author": "Jan Kowalski",
+    "created_at": "2025-06-03"
+  },
+  {
+    "id": 4,
+    "title": "Cybersecurity Awareness Week",
+    "body": "Workshops and hackathons engage students in real-world threats...",
+    "author": "Anna Nowak",
+    "created_at": "2025-06-04"
+  },
+  {
+    "id": 5,
+    "title": "AI for Agriculture",
+    "body": "Students use machine learning to optimize crop yields...",
+    "author": "Maja Kryszak",
+    "created_at": "2025-06-05"
+  }
+]
